@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Silkscreen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+    <title>formulario</title>
+</head>
+<body>
+    <header>
+        <div id="headerlogo" class="containerheader">
+        <img class="headerimage" src="img/mother2.webp" alt="Earthbound-logo">
+        </div>
+        <nav>
+        <ul class="menu-horizontal">
+                <li><a href="index.html">Inicio</a></li>
+        </ul>
+        </nav>
+    <section>
+        <picture>
+            <img class="starman" src="img/pngegg.png" alt="Starman">
+        </picture>
+<form id="contactoform" class="form" action="enviar.php" method="post">
+    <h2>Contacto</h2>
+    <div class="input-group">
+        <label for="nombre">Nombre y Apellido:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre y apellido">
+
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" placeholder="Correo Electronico">
+        <label for="comentario">Comentario</label>
+        <textarea name="comentario" id="comentario" cols="30" rows="5"placeholder="Deje su mensaje"></textarea>
+
+        <input type="submit" value="Enviar" class="btn">
+        <img class="monito" src="img/MisguidedTepidBeaver-max-1mb.gif" width="100px" alt="">
+    </div>
+</form>
+</section>
+<section class="map">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.5934056243345!2d-58.70198852499669!3d-34.664969972932376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbf86ef457285%3A0xd8055b178c177d4c!2sUniversidad%20Nacional%20del%20Oeste!5e0!3m2!1ses!2sar!4v1695747016879!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<footer>
+        <a href="#headerlogo"><img src="img/5818dc4916e9c.gif" alt="MrSaturm"></a>
+        <p>Priscila Centurión</p>
+        &copy; Copyright 2024 
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
