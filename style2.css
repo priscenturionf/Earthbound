@@ -79,12 +79,11 @@ nav{
     text-decoration: none;
 }
 
-a .wsp{
-    background-color: white;
+a.wsp{
     tex-decoration:none;
     color:yellow;
-
 }
+
 .starman{
     position: relative;
     top: 550px;
