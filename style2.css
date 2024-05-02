@@ -79,7 +79,8 @@ nav{
     text-decoration: none;
 }
 
-.wsp{
+a {
+    background-color: white;
     tex-decoration:none;
     color:green;
 
