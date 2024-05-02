@@ -22,4 +22,9 @@
 
 ## Proximamente MUCHOS cambios esteticos con mas tiempo ;)
 
+<p></p>
+✔️ Se ha modificado el metodo de envio de formulario a emial, con Formspree ahora funciona.
+✔️ Agregado un favicon para los archivos HTML.
+<p></p>
+
 ![GitHub Org's stars](https://img.shields.io/github/stars/camilafernanda?style=social)
