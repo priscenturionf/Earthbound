@@ -24,6 +24,7 @@
 
 <p></p>
 * ✔️ Se ha modificado el metodo de envio de formulario a emial, con Formspree ahora funciona.
+<p></p>
 * ✔️ Agregado un favicon para los archivos HTML.
 <p></p>
 
