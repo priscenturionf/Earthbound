@@ -19,13 +19,12 @@
 * Proyecto basico de la universidad.
 * Materia: Programacion web 1
 * Mi tematica: La saga de videojuegos Mother/Earthbound de Nintendo.
-
-## Proximamente MUCHOS cambios esteticos con mas tiempo ;)
-
+<hr></hr>
 <p></p>
-* ✔️ Se ha modificado el metodo de envio de formulario a emial, con Formspree ahora funciona.
 <p></p>
-* ✔️ Agregado un favicon para los archivos HTML.
+✔️ Se ha modificado el metodo de envio de formulario a emial, con Formspree ahora funciona.
+<p></p>
+✔️ Agregado un favicon para los archivos HTML.
 <p></p>
 
 ![GitHub Org's stars](https://img.shields.io/github/stars/camilafernanda?style=social)
