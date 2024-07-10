@@ -93,12 +93,12 @@ a.wsp{
 form{
     position: relative;
     left: 400px;
-    bottom: 100px;
+    bottom: 200px;
     font-family: 'Silkscreen', cursive;
     width: 600px;
     background-color: black;
     margin: 0;
-    padding: 50px 55px;
+    padding: 30px 55px;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.623);
     border-radius: 20px;
     text-align: center;
@@ -157,7 +157,7 @@ i{
 .map {
     flex: 1;
     position: relative;
-    bottom: 20px;
+    bottom: 50px;
     padding: 50px;
     box-sizing: border-box;
     max-width: 100%; 
@@ -181,7 +181,6 @@ footer{
     align-items: center;
     justify-content: space-between;
     position: absolute;
- 
     background-color: black;
 }
 footer img{
