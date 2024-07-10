@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Silkscreen', cursive;
+}
+body{
+    background-image: url(img/thumb-1920-475456.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.containerheader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.753);
+}
+.headerimage{
+    width: 700px;
+
+}
+nav{
+    position: sticky;
+    z-index: 1;
+    top:0;
+    margin:auto;
+    font-family: 'Silkscreen', cursive;
+    background-color: black;
+    font-size: 20px;
+}
+
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-horizontal > li > a{
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+.menu-horizontal >li > a:hover{
+    transition: color 0.5s ease;
+    color:rgb(226, 215, 64);
+}
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgb(255, 225, 53);
+}
+.menu-horizontal >li:hover .menu-vertical{
+    display: block;
+}
+.menu-vertical >li:hover{
+    background-color:rgb(129, 113, 30) ;
+}
+.menu-vertical > li >a{
+    display: block;
+    font-weight: bold;
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.image-container {
+    display: flex;
+    overflow: hidden;
+    width: 50%;
+    height: 500px;
+    position: relative;
+    background-color:#0000009d;
+    border-radius: 10px;
+}
+
+.gallery-image {
+    min-width: 100%;
+    object-fit: cover; 
+    height: 100%;
+    transition: transform 0.5s ease;
+}
+
+.gallery button {
+    background-color: #000000;
+    color: rgb(229, 243, 36);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 10px;
+    font-size: 1rem;
+}
+
+.gallery button:hover {
+    background-color: #63622d;
+    color: white;
+}
+
+
+
+footer, p{
+    font-family: 'Silkscreen', cursive;
+}
+footer{
+    display: flex;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    background-color: black;
+}
+footer img{
+    width: 50px;
+}
