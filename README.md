@@ -22,9 +22,12 @@
 <hr></hr>
 <p></p>
 <p></p>
-✔️ Se ha modificado el metodo de envio de formulario a emial, con Formspree ahora funciona.
+✔️ Se ha modificado el metodo de envio de formulario a email, con Formspree ahora funciona.
 <p></p>
 ✔️ Agregado un favicon para los archivos HTML.
 <p></p>
+<hr></hr>
+✔️ Agregada una pequeña galeria de imagenes hecha con html, css y un poco de js.
+✔️ Correccion de colores y tamaños de fuente.
 
 ![GitHub Org's stars](https://img.shields.io/github/stars/camilafernanda?style=social)
